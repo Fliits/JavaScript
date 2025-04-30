@@ -8,7 +8,7 @@ let result_total
 for (let i = 0; i < loop; i++){
   result_total = 0
   for (let j = 0; j < dice; j++){
-    result_total += Math.floor(Math.random() * 6) + 1
+    result_total += Math.floor(Math.random() * 10) + 1
   }
   if (result_total===wanted){
     correct++
